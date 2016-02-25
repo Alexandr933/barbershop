@@ -147,7 +147,67 @@ body {
   width: 300px;
 }
 
-.price {
+.feature-and-price-row .price {
   float: right;
   width: 300px;
 }
+
+.about-us p {
+  float: left;
+  margin-right: 20px;
+  width: 320px;
+}
+
+.about-us p:last-child {
+  margin-right: 0px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  margin-right: 20px;  
+}
+
+.breadcrumbs li:last-child {
+  margin-right: 0px;
+}
+
+.shop-category-left {
+  float: left;
+  width: 120px; 
+}
+
+.shop-category-right {
+  float: right;
+  width: 500px;
+}
+
+.manufacturers label {
+  display: block;
+}
+
+.groups-of-products label {
+  display: block;
+}
+
+.showcase .item {
+  display: inline-block;
+  width: 100px;  
+  margin: 20px;  
+  padding: 10px;
+}
+
+ul.item-nav li {
+  display: inline-block;
+}
+
+.item-preview {
+  float: left;
+  width: 350px;
+}
+
+.item-description {
+  float: right;
+  width: 350px;
+}
+
+
