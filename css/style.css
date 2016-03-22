@@ -15,30 +15,35 @@ body {
 }
 
 .container {
-  width: 660px;
-  margin: 0 auto;
-
-  /* для оформления схемы */
-  /*min-height: 20px;*/
+  width: 960px;
+  margin: 0 auto;  
   padding: 5px;
 }
 
 .main-nav {
-  float: left;
-
-  width: 520px;
-
-  /* для оформления схемы */
+  float: left;    
   min-height: 20px;
+  background-color: black;
+  width: 100%;
 }
 
-.user-block {
+.main-nav li{
+  display: inline-block;  
+  width: 110px;  
+}
+.main-nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  color: white;
+  line-height: 42px;
+}
+
+.user-block {  
   float: right;
-
-  width: 90px;
-
-  /* для оформления схемы */
-  min-height: 20px;
+  width: 110px;
 }
 
 .main-container {
@@ -49,26 +54,19 @@ body {
   display: block;
   width: 270px;
   margin: 0 auto;
-  margin-bottom: 20px;
-
-  /* для оформления схемы */
+  margin-bottom: 20px;  
   min-height: 120px;
 }
 
 .features-row {
   margin-bottom: 35px;
-
-  /* для оформления схемы */
   padding: 5px;
 }
 
 .features-item {
   float: left;
-
   width: 195px;
   margin-right: 24px;
-
-  /* для оформления схемы */
   min-height: 150px;
 }
 
@@ -82,17 +80,12 @@ body {
 }
 
 .index-content:last-child {
-  /* для оформления схемы:
-   в обычной верстке без рамок
-   маргин будет выпадать из
-   .container */
   margin-bottom: 0;
 }
 
 .content-column-left,
 .content-column-right {
   width: 250px;
-
   /* для оформления схемы */
   min-height: 230px;
 }
